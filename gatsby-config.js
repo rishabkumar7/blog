@@ -4,7 +4,12 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Rishab's blog`,
+    siteTitleAlt: 'Rishab Kumar',
+    siteHeadline: `Rishab Kumar's blog site`,
+    siteUrl: `https://blog.rishabkumar.ga`,
+    siteLanguage: `en`,
+    author: `@rishabk7`,
   },
   plugins: [
     {
@@ -24,11 +29,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/rishabk7`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Github`,
+            url: `https://github.com/rishabkumar7`,
           },
         ],
       },
