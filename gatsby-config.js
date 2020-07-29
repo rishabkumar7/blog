@@ -28,6 +28,10 @@ module.exports = {
         ],
         externalLinks: [
           {
+            name: `Portfolio`,
+            url: `https://rishabkumar.com`,
+          },
+          {
             name: `Twitter`,
             url: `https://twitter.com/rishabk7`,
           },
