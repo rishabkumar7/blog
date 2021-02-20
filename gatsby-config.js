@@ -43,6 +43,16 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-enhanced-emoji-cursor`,
+      // These are the default options.
+      options: {
+        emoji: [`🥬`],
+        fontSize: `80px`,
+        lifeSpan: 125,
+        interval: 200,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
@@ -52,7 +62,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rishab's minimal blog`,
+        name: `Rishab's blog`,
         short_name: `minimal-blog`,
         description: `My Cloud journey and great tutorials for AWS and Linux`,
         start_url: `/`,
@@ -75,5 +85,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-twitter`,
   ],
 }
