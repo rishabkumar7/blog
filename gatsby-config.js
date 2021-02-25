@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rishab's blog`,
+    siteTitle: `Rishab in Cloud`,
     siteTitleAlt: 'Rishab Kumar',
     siteHeadline: `Rishab Kumar's blog site`,
     siteUrl: `https://blog.rishabkumar.ga`,
@@ -24,6 +24,10 @@ module.exports = {
           {
             title: `About`,
             slug: `/about`,
+          },
+          {
+            title: `Talks`,
+            slug: `/talks`,
           },
         ],
         externalLinks: [
@@ -46,7 +50,7 @@ module.exports = {
       resolve: `gatsby-plugin-enhanced-emoji-cursor`,
       // These are the default options.
       options: {
-        emoji: [`🥬`],
+        emoji: [`☁`],
         fontSize: `80px`,
         lifeSpan: 125,
         interval: 200,
